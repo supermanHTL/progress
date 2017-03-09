@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>订单详情--待发货</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/order_details_forSend.css">
+</head>
+
+<body>
+    <div id="top">
+        <a href="javascript:history.go(-1)" id="goback"></a>
+        <h1>订单详情</h1>
+    </div>
+    <div class="placeholder"></div>
+    <header>
+        <p>收货人：<span id="name">李思思</span><span id="tel">13646005163</span></p>
+        <address>收货地址：<span>福建省厦门市思明区软件园二期观日路30号之六508B</span></address>
+    </header>
+    <!-- 商品 -->
+    <div class="list">
+        <div class="list-head">
+            <a href="">小B旗舰店</a>
+            <div class="state">等待卖家发货</div>
+        </div>
+        <div class="list-body">
+            <a href="product_details.html">
+                <div class="img-box"><img src="../images/product.jpg" alt=""></div>
+                <div class="info">
+                    <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款</strong>
+                    <span class="info-attr">颜色分类:白色;尺码:均码;</span>
+                    <div class="price clearfix">
+                        <span>&yen; <em class="per">0.00</em>&nbsp;</span>
+                        <small>&yen;<em>0.00</em></small>
+                        <span class="quantity">&times;<em class="num">0</em></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="list-fee">
+            <div>
+                <span>运费（快递）</span>
+                <span>&yen;<em>0.00</em></span>
+            </div>
+            <div>
+                <span>订单总价</span>
+                <span>&yen;<em>0.00</em></span>
+            </div>
+            <div id="total">
+                <span>实付款</span>
+                <span>&yen;<em>0.00</em></span>
+            </div>
+        </div>
+    </div>
+    <ul class="list list2">
+        <li>订单编号：<span id="order-number">000000</span><span id="copy">长按可复制</span></li>
+        <li>付款时间：<span>2016/1/1 11:11:11</span></li>
+        <li>订单状态：<span id="state">买家已付款</span></li>
+    </ul>
+    <div class="list list3">
+        <a href="service.html">联系卖家</a>
+        <span>退款</span>
+    </div>
+    <div class="list list4">
+        <span>提醒发货</span>
+        <a href="">查看物流</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>我要加盟</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/toJoin.css">
+</head>
+
+<body>
+    <div id="topfix">
+        <a href="javascript:history.go(-1)" id="goback"></a>
+        <h1>我要加盟</h1>
+    </div>
+    <div class="placeholder"></div>
+    <ul id="form">
+        <li>
+            店铺名称：<input type="text" name="">
+        </li>
+        <li>
+            开店费用：<input class="select" type="text" disabled="true" value="请选择">
+            <img src="../images/down.gif" alt="down">
+            <ul class="items">
+                <li>微信钱包</li>
+                <li>支付宝</li>
+                <li>线下转账</li>
+            </ul>
+        </li>
+        <li>
+            真实姓名：<input type="text" name="">
+        </li>
+        <li>
+            身份证：<input id="id_number" type="tel" name="">
+        </li>
+    </ul>
+    <p id="agreement">
+        <label for="#tick"><i id="tick" class="tick"></i>同意</label>
+        <span class="red">注册使用协议</span>
+    </p>
+    <span id="submit">确定</span>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/toJoin.js"></script>
+</body>
+
+</html>

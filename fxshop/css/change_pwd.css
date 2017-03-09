@@ -1,0 +1,150 @@
+/*头部公共样式（使用/28.1rem）*/
+.self-top {
+	position: fixed;
+	left: 0;
+	top: 0;
+    z-index: 99;
+	width: 100%;
+	height: 3.56rem;
+	background: #2e8de6;
+}
+.goback {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 2.42rem;
+	height: 100%;
+	background: url('../images/back.png') center center no-repeat;
+	background-size: 0.68rem 1.25rem;
+}
+.self-top h1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 1.21rem 0;
+	line-height: 1;
+	font-size: 1.14rem;
+	text-align: center;
+	color: #fff;
+}
+/*公共样式结束*/
+
+.change {
+	padding: 0 1.25rem;
+}
+.enter, .pay {
+	display: block;
+	padding: 1.32rem 0.71rem 1.32rem 0;
+	border-bottom: 1px solid rgba(217,217,217,0.5);
+	background: url('../images/gonext.png') right center no-repeat;
+	background-size: 0.71rem 1.35rem;
+	line-height: 1;
+	font-size: 0.93rem;
+	color: #333;
+}
+
+
+/*修改登入密码、修改提现密码*/
+.wrap {
+    padding-top: 3.56rem;
+    background: #fff;
+    color: #333;
+}
+
+/* 修改密码 */
+
+.form {
+    font-size: 0.85rem;
+    width: 100%;
+    margin-top: 0.14rem;
+    color: #808080;
+    background-color: #fff;
+}
+.form div {
+    position: relative;
+}
+.form div span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.56rem;
+    height: 3.56rem;
+}
+.form input {
+    display: block;
+    width: 90.666667%;
+    height: 3.56rem;
+    margin: auto;
+    border: none;
+	border-bottom: 1px solid rgba(217,217,217,0.5);
+    font-size: 0.93rem;
+    outline: none;
+}
+.wrap .form .isFalse {
+    background: url('../images/false.png') center center no-repeat;
+    background-size: 50% 50%;
+}
+.wrap .form .isTrue {
+    background: url('../images/true.png') center center no-repeat;
+    background-size: 50% 50%;
+}
+.finish {
+    font-size: 0.93rem;
+    position: absolute;
+    top: 15.05rem;
+    left: 6.23rem;
+    width: 53.333333%;
+    padding: 0.96rem 0;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    border-radius: 1.78rem;
+    background-color: #2e8de6;
+}
+
+.warp .bd0 {
+    border: none;
+}
+
+/*密码的提示信息*/
+.tip {
+    margin: 4.63rem auto;
+    padding: 0rem 0.71rem;
+    background: #e1eaf2;
+    font-size: 0.78rem;
+    color: #f00;
+    text-align: center;
+}
+.tip p {
+    display: none;
+}
+
+/*修改成功页面*/
+.suc-wrap {
+    padding-top: 6.09rem;
+}
+.suc-pic {
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 0.89rem 2.49rem 0;
+    background: url('../images/suc.png') left center no-repeat;
+    line-height: 1;
+    font-size: 1.14rem;
+    background-size: 1.96rem 1.92rem;
+}
+.ok {
+    display: block;
+    width: 53.33%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    margin-top: 3.91rem;
+    background: #2e8de6;
+    line-height: 1;
+    font-size: 1.14rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.21rem;
+}

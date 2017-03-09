@@ -1,0 +1,332 @@
+/* common */
+
+html, body, ..wrap-htl {
+    height: 100%;
+}
+.container {
+    width: 93.6%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+..wrap-htl {
+    position: relative;
+}
+.main {
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3.63rem;
+    bottom: 3rem;
+}
+..wrap-htl .footer-nav {
+    position: absolute;
+}
+.img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.index-slide .swiper-slide a {
+    display: block;
+    height: 14.23487544rem;
+}
+
+.index-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.index-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: .81850534rem 0;
+    background-color: #2e8de6;
+}
+
+.index-search form,
+.index-search .index-search-message {
+    float: left;
+}
+
+.index-search .index-search-message {
+    font-size: .6405694rem;
+    line-height: .6405694rem;
+    width: 15%;
+    height: .67615658rem;
+    padding-top: 1.31672598rem;
+    text-align: center;
+    color: white;
+}
+.index-search form {
+    overflow: hidden;
+    width: 84%;
+}
+
+.index-search form div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 1.99288256rem;
+    background: #fff;
+    border-radius: .6405694rem;
+}
+.index-search form div span {
+    line-height: 1.99288256rem;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.index-search form div input {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 84%;
+    padding-left: 5%;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+/*扫一扫功能*/
+.index-search form div span, .index-search form div b {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    width: 2.4rem;
+    height: 100%;
+}
+.index-search form div span {
+    background: #fff url('../images/sys.png') center center no-repeat;
+    background-size: 1.06rem 1.06rem;
+}
+/*搜索功能*/
+.index-search form div b {
+    display: none;
+    background: #fff url('../images/search.png') center center no-repeat;
+    background-size: 0.88rem 0.9rem;
+}
+
+.index-search .index-search-message {
+    background: url('../images/message.png') center top no-repeat;
+    background-size: 1.4rem 1.2rem;
+}
+
+.index-part {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: flex;
+    margin-top: 1.42348754rem;
+    padding: 0 3.2%;
+}
+
+.index-part a {
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 20%;
+}
+.index-part dl dt {
+    overflow: hidden;
+    width: 3.48754448rem;
+    height: 3.48754448rem;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.index-part dl dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.index-part dl dd {
+    font-size: .85409253rem;
+    line-height: .85409253rem;
+    margin-top: 1.28rem;
+    text-align: center;
+    color: #333;
+}
+/* 商品分类 */
+
+#classes {
+    overflow: hidden;
+    margin-top: 2.133333rem;
+    margin-bottom: 2.275556rem;
+}
+#classes img {
+    width: 100%;
+    height: 100%;
+}
+#classes h2 {
+    font-size: 0.853333rem;
+    line-height: 2.737778rem;
+    width: 100%;
+    margin-bottom: 0.853333rem;
+    text-align: center;
+    color: #595959;
+    background: url(../images/theme/theme-bg.png) no-repeat center bottom;
+    background-size: contain;
+}
+.classes-list {
+    width: 25.031111rem;
+    margin: 0 auto;
+}
+
+.classes-list a {
+    color: #333;
+}
+.classes-list li {
+    float: left;
+    width: 12.337778rem;
+    margin-right: 0.355556rem;
+    margin-bottom: 0.355556rem;
+    border: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 0.355556rem;
+}
+.classes-list li:nth-child(2n) {
+    margin-right: 0;
+}
+.classes-list .pix-box {
+    height: 12.266667rem;
+    width: 12.266667rem;
+}
+
+.classes-list strong {
+    font-size: 0.853333rem;
+    height: 2.488889rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 0 0.711111rem;
+}
+.classes-list .price {
+    line-height: 1.564444rem;
+    padding: 0 0.711111rem;
+    font-size: 0.995556rem;
+    color: #e83e3e;
+}
+.classes-list .price0 {
+    color: #b3b3b3;
+    font-size: 0.711111rem;
+    text-decoration: line-through;
+}
+.classes-list .saled {
+    font-size: 0.853333rem;
+    color: #b3b3b3;
+    text-align: right;
+    margin-right: 0.711111rem;
+}
+
+/*商品*/
+.wrap-htl .goodsS-con {
+  padding: 0.71174377rem 0 0.71174377rem 0.92rem;
+  font-size: 0.85409253rem;
+}
+.wrap-htl  .goodsS-con a:nth-child(odd) {
+  margin-right: 0.35587189rem;
+}
+.wrap-htl  .goodsS-con-son {
+  float: left;
+  width: 48%;
+  height: 17.58007117rem;
+  margin-bottom: 0.36rem;
+  padding: 0 0.67615658rem 0.21352313rem;
+  border: 1px solid rgba(230,230,230,0.5);
+  color: #333;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrap-htl .goodsS-con-son dt {
+  height: 12.09964413rem;
+}
+.wrap-htl  .goodsS-con-son dt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wrap-htl  .goods-des {
+  height: 2.78rem;
+  line-height: 1.39rem;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+.wrap-htl .goods-price strong {
+  color: #e83e3e;
+}
+.wrap-htl  .goods-price span {
+  font-size: 0.6405694rem;
+  text-decoration: line-through;
+  color: #b2b2b2;
+}
+.wrap-htl  .goods-sell {
+  font-size: 0.6405694rem;
+  color: #b2b2b2;
+  text-align: right;
+}
+
+
+/*底部导航*/
+.foot-nav .ind {
+    color: #2e8de6;
+    background: url(../images/footer-ico/home-a.png) no-repeat center .426667rem;
+    background-size: 1.67rem 1.64rem;
+}
+
+/*返回顶部和客服*/
+
+.index-service,
+.gotop {
+    position: fixed;
+    bottom: 10.14rem;
+    width: 3.7rem;
+    height: 3.7rem;
+    z-index: 99999;
+}
+
+.index-service {
+    left: .89rem;
+    background: url('../images/service.png');
+    background-size: 100% 100%;
+    border-radius: 100%;
+    -webkit-animation: breath 1.2s alternate infinite;
+}
+
+/*客服标签呼吸效果*/
+@-webkit-keyframes breath {
+  from {
+    box-shadow: 0 0 1px 1px #999;
+  }
+  to {
+    box-shadow: 0 0 15px 1px #000;
+  }
+}
+.gotop {
+    right: .89rem;
+    display: none;
+    background: url('../images/gotop.png');
+    background-size: 100% 100%;
+}

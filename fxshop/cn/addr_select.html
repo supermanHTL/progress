@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name = "format-detection" content = "telephone=no">
+	<title>收货地址</title>
+	<link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/personal_top_common.css">
+	<link rel="stylesheet" href="../css/personal_address.css">
+    <script type="text/javascript" src="../js/fontSize.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+	<div class="select-wrap">
+		<div class="self-top-common">
+    		<a href="" class="goback"></a>
+    		<h1>收货地址</h1>
+            <a href="personal_address.html" class='set'>编辑</a>
+		</div>
+		<div class="addr-message">
+            <!-- 第一个收件地址 -->
+    		<ul>
+    			<li class="addr-name">
+    				<span>姓名：</span>
+    				<strong>李四</strong>
+                    <b class="phone">13800000001</b>
+    			</li>
+    			<li class="addr-addr">
+    				<span>地址：</span>
+    				<strong>福建省思明区软件园二期观日路30号之六508B</strong>  
+    			</li>
+                <li class="select"></li>
+    		</ul>
+            <!-- 第二个收件地址 -->
+            <ul>
+                <li class="addr-name">
+                    <span>姓名：</span>
+                    <strong>王二</strong>
+                    <b class="phone">13800000000</b>
+                </li>
+                <li class="addr-addr">
+                    <span>地址：</span>
+                    <strong>火星</strong>  
+                </li>
+                <li class="select"></li>
+            </ul>
+
+    	</div>
+    	<a href="personal_address2.html" class="addNew-addr">新增地址</a>
+        <!-- 弹窗 -->
+        <div class="mask">
+            <div class="mask-tip clearfix">
+                <p>确定删除该地址吗？</p>
+                <div class="mask-cancel">取消</div>
+                <div class="mask-sure">确定</div>
+            </div>
+        </div>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+    <script type="text/javascript" src="../js/event.js"></script>
+    <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/htl2.js"></script>
+</body>
+</html>

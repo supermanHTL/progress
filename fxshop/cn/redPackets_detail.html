@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+	<title>红包详情</title>
+    <script src="../js/fontSize.js"></script>
+	<link rel="stylesheet" href="../css/redPackets_detail.css">
+</head>
+<body>
+	<div id="my-pic">
+		<img src="../images/my_save.png" alt="user">
+	</div>
+	<div id="share">
+		<h2>桔子树的红包</h2>
+		<p>按以下按钮去分享，您将获得红包奖励</p>
+		<div class="btn">去分享</div>
+	</div>
+	<ul id="list">
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔子树小A</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔子树小C</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔子</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔子树小E</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+		<li>
+			<div class="list-pic"><img src="../images/my_save.png" alt=""></div>
+			<div class="info">
+				<p>
+					<span class="name">桔子树小F</span>
+					<span class="get">100元</span>
+				</p>
+				<span class="date">2016/10/20 16:28:32</span>
+			</div>
+		</li>
+	</ul>
+
+	<script src="../js/zepto.min.js"></script>
+	<script>
+		$('.name').each(function(i) {
+			var txt = $(this).html();
+			var arr = txt.split('');
+			txt = arr[0] + '**' + arr[arr.length - 1];
+			if ( arr.length < 3 ) txt = arr[0] + '**';
+			$(this).html(txt);
+		});
+	</script>
+</body>
+</html>

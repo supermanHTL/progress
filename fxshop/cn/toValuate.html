@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>商品评价</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/toValuate.css">
+</head>
+
+<body>
+    <div id="top">
+        <a href="javascript:history.go(-1)" id="goback"></a>
+        <h1>商品评价</h1>
+    </div>
+    <div class="placeholder"></div>
+    <!-- 商品 -->
+    <dl class="list">
+        <dt class="list-head">
+            <a href="">小B旗舰店</a>
+            <span class="state"></span>
+        </dt>
+        <dd class="list-body">
+            <a href="product_details.html">
+                <div class="img-box"><img src="" alt=""></div>
+                <div class="info">
+                    <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款</strong>
+                    <div class="info-attr">
+                        颜色分类:
+                        <label>白色</label>; 尺码:
+                        <label>均码</label>;
+                    </div>
+                    <div class="price clearfix">
+                        <span>&yen; <label class="per">0.00</label>&nbsp;</span>
+                        <span>&yen;<label>0.00</label></span>
+                        <span class="quantity">&times;<label class="num">0</label></span>
+                    </div>
+                </div>
+            </a>
+        </dd>
+        <dd class="list-bottom">
+            <p>共计
+                <label class="amount">0</label>件商品 合计：&yen;
+                <label class="summary">00.00</label>(<span>含运费&yen; <label class="transport-fee">0.00</label></span>)</p>
+        </dd>
+    </dl>
+    <textarea placeholder="请填写您对该商品的评价"></textarea>
+    <input type="button" value="提交评价">
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script>
+        var minLen = 2,
+            maxLen = 50;
+
+        $('textarea').on('keyup',function () {
+            var len = $('textarea').val().length
+            if ( len < minLen || len > maxLen) {
+                $('input').removeClass('active');
+                return;
+            };
+            $('input').addClass('active');
+        });
+        $('input').tap(function(){
+            if (!$(this).hasClass('active')) return;
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/frozen.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/private_login_cs.css"/>
+		<script src="../js/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/event.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/fontSize.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/fx.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/fx_methods.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/touch.js" type="text/javascript" charset="utf-8"></script>
+    	<script type="text/javascript" src="../js/swiper.3.1.7.jquery.min.js"></script>
+    	<script src="../js/calendar.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/selector.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="../js/frozen.js" type="text/javascript" charset="utf-8"></script>
+    	
+	</head>
+
+	<body>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<div id="private_login_title">
+			<ul>
+				<li id="left_angle"><a href="javascript:history:go(-1)"><img src="../images/left_angles.png" /></a></li>
+				<li id="title_login">重置密码</li>
+				<li id="title_regist"><a href="private_regist.html">注册</a></li>
+			</ul>
+		</div>
+		<center>
+		<div id="private_login_body">
+			<form action="#" method="post" id="private_login_form" class="bs-example bs-example-form" role="form">
+				<div id="private_login_body_body" style="height: 7.253rem;">
+					<div class="private_login_pwd">
+            			<input type="text" placeholder="请输入手机号" style="width: 97%;"/>
+            			<div style="width: 90%; height: 2px; background-color: #e1eaf2;"></div>
+					</div>
+
+					<div class="private_login_pwd">
+            			<input type="text" placeholder="请输入验证码" style="margin-top: 0" />
+            			<input type="button" value="获取验证码" />
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<input type="submit" value="下一步" id="private_login_button"/>
+			</form>
+		</div>
+		</center>
+	</body>
+
+</html>

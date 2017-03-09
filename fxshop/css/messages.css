@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+body,
+p,
+h1,
+ul,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+i,
+strong {
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+*:focus {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#topfix {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.417778rem;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+#topfix h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+
+/* main */
+
+dl {
+    line-height: 1.5;
+    margin-top: .711111rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.355556rem;
+}
+
+dt,
+dd {
+    padding: 0 .853333rem;
+}
+
+dt {
+    font-size: .995556rem;
+    overflow: hidden;
+}
+
+dt span {
+    font-size: .853333rem;
+    float: right;
+}

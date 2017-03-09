@@ -1,0 +1,72 @@
+.perSet-wrap {
+	padding: 3.56rem 1.17rem 0;
+	background: #fff;
+}
+.per-sure {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3.13rem;
+	height: 3.56rem;
+	line-height: 3.56rem;
+	font-size: 1.1rem;
+	text-align: center;
+	color: #fff;
+}
+.perSet-form {
+	padding-top: 0.68rem;
+}
+.perSet-form div {
+	font-size:1rem;
+	color: #333;
+}
+.perSet-form div label,
+.perSet-form div b,
+.perSet-form div i {
+	float: left;
+	height: 2.2rem;
+	line-height: 2.2rem;
+}
+.perSet-form div b {
+	margin-right: 1.55rem;
+}
+.perSet-form div input, .perSet-form div select {
+	float: right;
+	height: 2rem;
+	width: 71.6%;
+	border: 1px solid rgba(179,179,179,0.5);
+	padding-left: 0.36rem;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.perSet-form div input, .perSet-form div select {
+	border-radius: 0.28rem;
+	background: #fff;
+}
+/*生日的选择*/
+.perSet-form .per-birth select {
+	width: 5.5rem;
+	margin-left: 0.46rem;
+	background: #fff;
+}
+/*所在地的选择*/
+.perSet-form div .chooseCity {
+	float: right;
+	width: 71.6%;
+	height: 1.78rem;
+	line-height: 1.78rem;
+}
+.perSet-form div .chooseCity select {	
+	float: left;
+	width: 33.3%;
+	-webkit-border-radius: 0.28rem;
+	border-radius: 0.28rem;
+	background: #fff;
+}
+/*正则判断的样式*/
+.perSet-form div .isFalse {
+	border: 1px solid rgba(255,0,0,0.5);
+}

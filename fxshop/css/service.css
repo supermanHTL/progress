@@ -1,0 +1,245 @@
+html, body, .wrap {
+    height: 100%;
+}
+.wrap {
+	position: relative;
+}
+.self-top-common, .main, .foot {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.self-top-common, .foot {
+	left: 0;
+	height: 3.56rem;
+}
+.self-top-common {
+	left: 0;
+}
+.foot {
+	bottom: 0;
+}
+.goback {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 2.42rem;
+	height: 100%;
+	background: url('../images/ser_back.png') center center no-repeat;
+	background-size: 0.71rem 1.32rem;
+}
+.self-top-common h1 {
+	position: absolute;
+	width: 100%;
+	padding: 1.21rem 0;
+	line-height: 1;
+	font-size: 1.14rem;
+	color: #333;
+	text-align: center;
+}
+.main {
+	overflow: auto;
+	top: 3.56rem;
+	bottom: 3.56rem;
+	padding: 1.78rem 0.85rem;
+	background: #e1eaf2;
+}
+
+.language, .self-language {
+	margin-bottom: 1.07rem;
+}
+.self-language {
+	overflow: hidden;
+}
+.language {
+	display: -webkit-box;
+}
+.self-language img, .self-language p {
+	float: right;
+}
+.language img, .self-language img {
+	display: block;
+	width: 2.85rem;
+	height: 2.85rem;
+	border-radius: 50%;
+}
+.language p, .self-language p {
+	position: relative;
+	max-width: 18rem;
+	padding: 0.93rem 0.85rem;
+	font-size: 1rem;
+	word-break:break-all;
+	border-radius: 5px;
+	background: #fff;	
+	box-sizing: border-box;
+}
+.language p {
+	margin-left: 1.03rem;	
+}
+.self-language p {
+	margin-right: 1.03rem;	
+}
+.language p:after, .self-language p:after {
+	position: absolute;	
+	top: 0.96rem;
+	content: '';
+	width: 0.5rem;
+	height: 0.57rem;	
+}
+.language p:after {
+	left: -0.4rem;
+	background: url("../images/sjx.png") no-repeat;
+	background-size: contain;
+}
+.self-language p:after {
+	right: -0.4rem;
+	background: url("../images/sjx2.png") no-repeat;
+	background-size: contain;
+}
+/*底部*/
+.foot {
+	overflow: hidden;
+}
+.chat {
+	padding: 0.71rem 0.85rem;
+}
+.chat span, .chat input, .chat strong {
+	float: left;
+}
+.chat span {
+	width: 2.14rem;
+	height: 2.14rem;
+	margin-right: 0.85rem;
+	border-radius: 50%;
+}
+.adFn {
+	background: url('../images/ser_fn.png');
+	background-size: 100% 100%;
+}
+.chat-con {
+	width: 14.56rem;
+	height: 2.13rem;
+	margin-right: 0.85rem;
+	padding-left: 0.43rem;
+	border: 1px solid rgba(128,128,128,0.5);
+	border-radius: 4px;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.adEx {
+	background: url('../images/xl.png');
+	background-size: contain;
+}
+.sendChat {
+	width: 3.45rem;
+	padding: 0.58rem 0;
+	line-height: 1;
+	background: #2e8de6; 
+	font-size: 0.93rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+.fn {
+	position: relative;
+	display:none;
+	display: -webkit-box;
+	height: 5.66rem;
+	padding: 0 3.2rem 1.07rem;
+	border-top: 1px solid rgba(204,204,204,0.5);
+}
+.fn div {
+	width: 4.7rem;
+	margin-right: 0.43rem;
+	padding-top: 3.56rem;
+	line-height: 1.42rem;
+	font-size: 0.85rem;
+	color: #808080;
+	text-align: center;
+	-webkit-box-flex: 1;
+
+}
+.fn-camera {
+	background: url('../images/camera.png') center 1.53rem no-repeat;
+	background-size: 2.21rem 1.71rem;
+}
+.fn-photo {
+	background: url('../images/ser_photo.png') center 1.53rem no-repeat;
+	background-size: 2.28rem 1.71rem;
+}
+.fn-record {
+	background: url('../images/chat_record.png') center 1.53rem no-repeat;
+	background-size: 1.85rem 1.71rem;
+}
+.fn-satisfy {
+	background: url('../images/satisfy.png') center 1.53rem no-repeat;
+	background-size: 1.6rem 1.78rem;
+}
+.take-camera, .take-pic {
+	position: absolute;	
+	width: 4.7rem;
+	height: 5.69rem;
+	opacity: 0;
+}
+.take-camera {
+	left: 3.2rem;
+}
+.take-pic {
+	left: 8.29rem;
+}
+
+/*底部功能模块的进入*/
+.main-change {
+	-webkit-animation: mainH 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+.fnShow {
+	-webkit-animation: footH 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes footH {
+	from{
+		height: 3.56rem;
+	}
+	to {
+		height: 9.25rem;
+	}
+}
+@-webkit-keyframes mainH {
+	from{
+		bottom: 3.56rem;
+	}
+	to {
+		bottom: 9.25rem;
+	}
+}
+/*底部功能模块的退出*/
+.main-changes {
+	-webkit-animation: mainHs 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+.fnShows {
+	-webkit-animation: footHs 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes footHs {
+	from{
+		height: 9.25rem;
+	}
+	to {
+		height: 3.56rem;
+	}
+}
+@-webkit-keyframes mainHs {
+	from{
+		bottom: 9.25rem;
+	}
+	to {
+		bottom: 3.56rem;
+	}
+}

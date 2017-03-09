@@ -1,0 +1,311 @@
+.wrap {
+	padding-bottom: 5.05rem;
+	font-size: 0.93rem;
+	background: #e1eaf2;
+	color: #333;
+}
+.order_head, .deal, .my, .out {
+	background: #fff;
+}
+.head {
+	height: 8.68rem;
+	padding: 1.96rem 0 1.96rem 0.85rem;
+	background: url('../images/top_image.png') no-repeat;
+	background-size: 100% 100%;
+}
+.head dt, .head dd {
+	float: left;
+}
+.head dt {
+	overflow: hidden;
+	width: 4.77rem;
+	height: 4.77rem;
+	margin-right: 0.75rem;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+.head dt img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head dd {
+	color: #fff;
+}
+.vip {
+	line-height: 1.99rem;
+}
+.vip span {
+	margin-right: 0.71rem;	
+}
+.vip strong {
+	padding: 0.32rem 0.64rem;
+	border: 0.07rem solid #fff;
+	line-height: 1;
+	border-radius: 1.07rem;
+}
+.red, .cost, .charges {
+	line-height: 1.42rem;
+}
+.cost b, .red b, .charges b {
+	margin-left: 0.21rem;
+}
+.cost strong, .red strong, .charges strong {
+	margin-left: -0.25rem;
+}
+.situation, .charges {
+	display: none;
+}
+.situation span, .situation strong {
+	float: left;
+}
+.situation strong {
+	color: #fa3c3c;
+}
+.role {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: flex;
+	height: 3.56rem;
+	background: #2e8de6;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+}
+.role div {
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	width: 20%;	
+}
+.role span {
+	display: block;
+	width: 8.97rem;
+	padding: 0.46rem 0;
+	margin: 0 auto;
+	font-size: 1.14rem;
+	line-height: 1;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.6rem;
+	-webkit-border-radius: 0.6rem;
+}
+.wrap .active {
+	background: #fff;
+	color: #2e8de6;
+}
+
+/*我的订单*/
+.order_head {
+    padding: 0.68rem 0.82rem 0.68rem 0.89rem;
+    border-bottom: 1px solid rgba(217,217,217,0.5);
+    line-height: 1;
+}
+.order_head .title {
+    float: left;
+    padding: 0.32rem 0 0.32rem 2.03rem;
+    background: url(../images/myorder.png) no-repeat 0 bottom;
+    color: #333;
+    background-size: contain;
+}
+
+.order_head .all {
+    float: right;
+    line-height: 1.57rem;
+    color: #333;
+}
+
+.order_head .more {
+    padding-right: 1.28rem;
+    background: url(../images/shopping-cart/next.png) no-repeat right center;
+    background-size: 0.46rem 0.46rem;
+}
+.deal {
+	display: -webkit-flex;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+    border-bottom: 1px solid rgba(217,217,217,0.5);
+}
+.deal li {
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	width: 20%;
+}
+.deal li a {
+	display: block;
+	width: 100%;
+	padding: 2.17rem 0 0.46rem 0;
+	color: #333;
+	text-align: center;
+}
+.pay {
+	background: url('../images/moneypag.png') center 0.5rem no-repeat;
+	background-size: 1.64rem 1.28rem;
+}
+.send {
+	background: url('../images/pre_sellout.png') center 0.5rem no-repeat;
+	background-size: 1.64rem 1.28rem;
+}
+.take {
+	background: url('../images/shopping_bus.png') center 0.5rem no-repeat;
+	background-size: 1.64rem 1.28rem;
+}
+.eval {
+	background: url('../images/assess.png') center 0.5rem no-repeat;
+	background-size: 1.64rem 1.28rem;
+}
+.ing {
+	background: url('../images/after_shopping.png') center 0.5rem no-repeat;
+	background-size: 1.64rem 1.64rem;
+}
+.my {
+	margin-top: 0.75rem;
+	line-height: 1;
+}
+.my li {
+    border-bottom: 1px solid rgba(217,217,217,0.5);
+}
+.my li a {
+	display: block;
+	position: relative;
+	padding: 0.96rem 0 0.96rem 3.67rem;
+	color: #333;
+}
+.my li a:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '';
+	width: 2.24rem;
+	height: 100%;
+	background: url('../images/gonext.png') center center no-repeat;
+	background-size: 0.53rem 1rem;
+}
+.track {
+	background: url('../images/myfootprint.png') 0.85rem center no-repeat;
+	background-size: 1.85rem 2.03rem;
+}
+.psw {
+	background: url('../images/update_password.png') 0.85rem center no-repeat;
+	background-size: 1.81rem 1.78rem;
+}
+.collect {
+	background: url('../images/my_save.png') 0.64rem center no-repeat;
+	background-size: 2.24rem 2.14rem;
+}
+.data {
+	background: url('../images/myfootprint.png') 0.75rem center no-repeat;
+	background-size: 2.06rem 2.1rem;
+}
+.meEval {
+	background: url('../images/my_words.png') 0.78rem center no-repeat;
+	background-size: 1.96rem 1.99rem;
+}
+.addr {
+	background: url('../images/address.png') 0.78rem center no-repeat;
+	background-size: 1.96rem 1.78rem;
+}
+
+/*我是创客*/
+.seller {
+	display: none;
+}
+.include {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+}
+.include a {
+	display: block;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	width: 20%;
+	padding: 0.36rem 0;
+	background: #fff;
+	line-height: 1.49rem;
+	color: #333;
+}
+.include a:nth-child(2) {
+	border-left: 1px solid rgba(204,204,204,0.5);
+	border-right: 1px solid rgba(204,204,204,0.5);
+}
+.include b {
+	margin-right: -0.36rem;
+}
+.sellMes {
+	margin-top: 0.75rem;
+}
+.sellMes li {
+	background: #fff url('../images/gonext.png') 94.8% center no-repeat;
+	background-size: 0.53rem 1rem;	
+}
+.sellMes li a {
+	display: block;
+	padding: 0.96rem 2.35rem 0.96rem 3.67rem;
+	border-bottom: 1px solid rgba(217,217,217,0.5);	
+	color: #333;
+}
+.sellOrder a {
+	background: url('../images/myorder.png') 1.1rem center no-repeat;
+	background-size: 1.35rem 1.46rem;
+}
+.sellXs a {
+	background: url('../images/wdxs.png') 0.82rem center no-repeat;
+	background-size: 1.89rem 1.6rem;
+}
+.sellTg a {
+	background: url('../images/dptg.png') 0.82rem center no-repeat;
+	background-size: 1.89rem 1.6rem;
+}
+.sellXx a {
+	background: url('../images/dpxx.png') 0.96rem center no-repeat;
+	background-size: 1.6rem 1.81rem;
+}
+.sellYj a {
+	background: url('../images/wdyj.png') 1rem center no-repeat;
+	background-size: 1.57rem 1.85rem;
+}
+
+/*退出*/
+.out {
+	height: 3.56rem;
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: flex;
+	margin-top: 1.42rem;
+    border-bottom: 1px solid rgba(217,217,217,0.5);
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+}
+.out a {
+	display: block;
+	width: 16.01rem;
+	margin: 0 auto;
+	padding: 0.5rem 0;
+	background: #fa3c3c;
+	font-size: 1.14rem;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.64rem;
+}
+
+
+.foot-nav .per {
+	color: #2e8de6;
+}
+.per {
+	background: url(../images/footer-ico/user-a.png) no-repeat center .426667rem;
+    background-size: 1.14rem 1.64rem;
+}

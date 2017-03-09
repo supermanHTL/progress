@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name = "format-detection" content = "telephone=no">
+    <title>修改登入密码</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/change_pwd.css">
+    <script src='../js/fontSize.js'></script>
+    <script src='../js/zepto.min.js'></script>
+    <script src='../js/touch.js'></script>
+    <script src='../js/htl2.js'></script>
+    <style>
+        html, body, .wrap {
+            background: #e1eaf2;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wrap">
+        <div class="self-top">
+            <a href="#" class="goback"></a>
+            <h1>修改登入密码</h1>
+        </div>
+        <form class="form" action="">
+            <div>
+                <input type="text" placeholder="输入原密码">
+                <span></span>
+            </div>
+            <div>
+                <input type="password" placeholder="输入新密码">
+                <span></span>
+            </div>
+            <div>
+                <input class="bd0" type="password" placeholder="再次输入您的密码">
+                <span></span>
+            </div>   
+            <a href="#" class="finish">确认修改</a>
+        </form>
+        <div class="tip">
+            <p class="tip1">
+                以字母开头，长度在6~18之间，只能包含字符、数字和下划线
+            </p>
+            <p class="tip2">密码不一致！</p>
+        </div>
+    </section>
+</body>
+
+</html>

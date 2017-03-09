@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+	<title>退款申请</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/refunds_application.css">
+</head>
+<body>
+    <div id="top">
+        <a href="javascript:history.go(-1)" id="goback"></a>
+        <h1>退款申请</h1>
+    </div>
+    <div class="placeholder"></div>
+	<div id="content">
+		<h2>退款理由：</h2>
+		<textarea placeholder="填写字数限制在50字以内"></textarea>
+		<input type="submit" value="提交申请">
+	</div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script>
+        var minLen = 2,
+            maxLen = 50;
+
+        $('textarea').on('keyup',function () {
+            var len = $('textarea').val().length
+            if ( len < minLen || len > maxLen) {
+                $('input').removeClass('active');
+                return;
+            };
+            $('input').addClass('active');
+        });
+        $('input').tap(function(){
+            if (!$(this).hasClass('active')) return;
+        })
+    </script>
+</body>
+</html>

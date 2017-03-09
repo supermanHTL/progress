@@ -1,0 +1,231 @@
+body,
+p,
+h1,
+dl,
+dd,
+textarea,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #e1eaf2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1,
+strong {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+input,
+textarea {
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#top {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#top h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.417778rem;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+
+/* main */
+
+.list {
+    margin-top: .711111rem;
+    background-color: #fff;
+}
+
+.list-head {
+    line-height: 2.488889rem;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2.488889rem;
+    padding: 0 1.244444rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-head a {
+    font-size: .924444rem;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    padding-left: 1.422222rem;
+    color: #333;
+}
+
+.list-head a:before,
+.list-head a:after {
+    position: absolute;
+    height: 100%;
+    content: '';
+}
+
+.list-head a:before {
+    left: 0;
+    width: .888889rem;
+    background: url('../images/shopping-cart/home.png') no-repeat left center;
+    background-size: contain;
+}
+
+.list-head a:after {
+    right: -1.422222rem;
+    width: .462222rem;
+    background: url('../images/shopping-cart/next.png') no-repeat right center;
+    background-size: contain;
+}
+
+
+.list-body {
+    height: 5.333333rem;
+    padding: .711111rem .853333rem;
+}
+
+.list-body a {
+    position: relative;
+    border-bottom: 1px dashed #ccc;
+}
+
+.img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.333333rem;
+    height: 5.333333rem;
+    background-size: contain;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    left: 3.733333rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 19.057778rem;
+    margin-left: 2.133333rem;
+}
+
+.info strong {
+    font-size: .924444rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    overflow: hidden;
+    height: 2.702222rem;
+    color: #333;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.info-attr {
+    font-size: .853333rem;
+    line-height: 1.5;
+    position: absolute;
+    top: 2.844444rem;
+    left: 0;
+    color: #4d4d4d;
+}
+
+.price {
+    font-size: .924444rem;
+    line-height: 1.5;
+    position: absolute;
+    top: 4.333333rem;
+    width: 100%;
+    color: #fa3c3c;
+}
+
+.price span:nth-of-type(2) {
+    font-size: .64rem;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.quantity {
+    font-size: .924444rem;
+    float: right;
+    color: #5d5d5d;
+}
+
+.list-bottom {
+    line-height: 2.133333rem;
+    padding: 0 .853333rem;
+    text-align: right;
+    border-top: 1px solid #ccc;
+}
+
+textarea {
+    font-size: .924444rem;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 24.96rem;
+    height: 7.111111rem;
+    margin: 1.422222rem auto 0;
+    padding: .711111rem;
+    border: 1px solid #ccc;
+    border-radius: .355556rem;
+}
+
+input {
+    font-size: .924444rem;
+    display: block;
+    width: 14.222222rem;
+    height: 2.133333rem;
+    margin: 1.422222rem auto 0;
+    color: #fff;
+    border: none;
+    border-radius: .355556rem;
+    outline: none;
+    background-color: #808080;
+}
+.active {
+    background-color: #fa3c3c;
+}

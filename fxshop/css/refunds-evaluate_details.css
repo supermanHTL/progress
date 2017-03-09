@@ -1,0 +1,285 @@
+body,
+p,
+h1,
+ul,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #e1eaf2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1,
+strong,
+i,
+dt {
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-size: .924444rem;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+img {
+    vertical-align: bottom;
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+#top {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#top h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68px;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '';
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/* main */
+
+.list {
+    margin-top: .711111rem;
+    background-color: #fff;
+}
+
+.list-head {
+    line-height: 2.488889rem;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2.488889rem;
+    padding: 0 1.244444rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-head a {
+    font-size: .924444rem;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    padding-left: 1.422222rem;
+    color: #333;
+}
+
+.list-head a:before,
+.list-head a:after {
+    position: absolute;
+    height: 100%;
+    content: '';
+}
+
+.list-head a:before {
+    left: 0;
+    width: .888889rem;
+    background: url('../images/shopping-cart/home.png') no-repeat left center;
+    background-size: contain;
+}
+
+.list-head a:after {
+    right: -1.422222rem;
+    width: .462222rem;
+    background: url('../images/shopping-cart/next.png') no-repeat right center;
+    background-size: contain;
+}
+
+.list-body {
+    height: 5.333333rem;
+    padding: .711111rem .853333rem;
+}
+
+.list-body a {
+    position: relative;
+    border-bottom: 1px dashed #ccc;
+}
+
+.img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 5.333333rem;
+    height: 5.333333rem;
+    background-size: contain;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    left: 3.733333rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 19.057778rem;
+    margin-left: 2.133333rem;
+}
+
+.info strong {
+    line-height: 1.5;
+    display: -webkit-box;
+    overflow: hidden;
+    height: 2.702222rem;
+    color: #333;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.info-attr {
+    font-size: .853333rem;
+    line-height: 1.5;
+    position: absolute;
+    top: 2.844444rem;
+    left: 0;
+    color: #4d4d4d;
+}
+
+.price {
+    line-height: 1.5;
+    position: absolute;
+    top: 4.266667rem;
+    width: 100%;
+    color: #fa3c3c;
+}
+
+.price small {
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.quantity {
+    float: right;
+    color: #5d5d5d;
+}
+
+.list-fee div {
+    line-height: 2.133333rem;
+    overflow: hidden;
+    padding: 0 .853333rem;
+    border-top: 1px solid #ccc;
+}
+
+.list-fee span:nth-child(2) {
+    float: right;
+}
+
+#total {
+    line-height: 2.844444rem;
+}
+
+#total span:nth-child(2) {
+    color: #fa3c3c;
+}
+
+.list2 li {
+    line-height: 2.133333rem;
+    padding: 0 .853333rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.list2 li:nth-child(2) {
+    position: relative;
+}
+
+#copy {
+    line-height: 1.208889rem;
+    position: absolute;
+    top: .426667rem;
+    right: .853333rem;
+    padding: 0 .64rem;
+    border: 1px solid #ccc;
+    border-radius: .711111rem;
+}
+
+#copy:after {
+    position: absolute;
+    top: -.462222rem;
+    left: 0;
+    width: 3.271111rem;
+    height: 2.133333rem;
+    content: '';
+}
+
+#state {
+    color: #2e8de6;
+}
+
+.evaluations {
+    line-height: 1.777778rem;
+    padding: 0 .853333rem;
+}
+
+.tracking dt,
+.tracking dd {
+    padding: 0 .853333rem;
+}
+
+.tracking {
+    line-height: 2.133333rem;
+}
+
+.tracking dt {
+    border-bottom: 1px solid #ccc;
+}
+
+.tracking .date {
+    float: right;
+}
+
+#reason {
+    line-height: 1.351111rem;
+    padding: .426667rem .853333rem;
+}

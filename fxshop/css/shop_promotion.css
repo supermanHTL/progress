@@ -1,0 +1,158 @@
+body,
+p,
+h1,
+h2,
+dl,
+dd,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #e1eaf2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+input {
+    vertical-align: top;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+*:focus {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/* main */
+
+#top {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#top h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.417778rem;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+.block {
+    margin-top: .711111rem;
+    padding-bottom: .853333rem;
+    background-color: #fff;
+}
+
+dt,
+dd {
+    padding: 0 .853333rem;
+}
+
+dt {
+    line-height: 2.133333rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.tips {
+    font-size: .853333rem;
+    line-height: 2.275556rem;
+    margin-top: .142222rem;
+    color: #666;
+}
+
+.logo {
+    position: relative;
+    margin-bottom: .711111rem;
+}
+
+.logo img {
+    width: 3.555556rem;
+    height: 3.555556rem;
+}
+
+.logo h2 {
+    font-size: .924444rem;
+    position: absolute;
+    top: 1.28rem;
+    left: 4.266667rem;
+}
+
+.block1 input {
+    font-size: .924444rem;
+    width: 100%;
+    height: 2.133333rem;
+    text-indent: .711111rem;
+    border: 1px solid #ccc;
+    border-radius: .355556rem;
+}
+
+.block2 span {
+    line-height: 2.062222rem;
+    display: block;
+    width: 100%;
+    text-indent: .711111rem;
+    color: #808080;
+    border: 1px dashed #ccc;
+    border-radius: .355556rem;
+}
+
+.block3 img {
+    width: 5.688889rem;
+    height: 5.688889rem;
+    margin-left: 2.133333rem;
+}

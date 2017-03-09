@@ -1,0 +1,198 @@
+body,
+p,
+h1,
+ul,
+dl,
+dd,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #e1eaf2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+strong,
+i {
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+input {
+    vertical-align: top;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+*:focus {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+
+/* main */
+
+#top {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#top h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.417778rem;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+.sort {
+    line-height: 3.555556rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+}
+
+.sort li {
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.sort span {
+    color: #e62e2e;
+}
+
+li.active {
+    color: #2e8de6;
+}
+
+
+/* 公共 */
+
+.items dl {
+    margin-top: .711111rem;
+    padding-bottom: .355556rem;
+    background-color: #fff;
+}
+
+.items {
+    background-color: #e1eaf2;
+}
+
+.items dt {
+    line-height: 3.555556rem;
+    margin-bottom: .355556rem;
+    padding: 0 .853333rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.items img {
+    width: 2.844444rem;
+    height: 2.844444rem;
+    vertical-align: middle;
+    border-radius: 1.422222rem;
+}
+
+.items strong {
+    margin-left: .711111rem;
+}
+
+.items dd {
+    line-height: 1.493333rem;
+    padding: 0 .853333rem;
+}
+
+.items dd span {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+dd span:first-child {
+    width: 14.151111rem;
+}
+
+dd span:last-child {
+    width: 10.524444rem;
+}
+
+.mark i {
+    color: #fa3c3c;
+}
+
+.level-1,
+.level-2,
+.level-3 {
+    display: none;
+}
+
+
+/* 店铺会员 */
+
+
+/* 一级分店 */
+
+
+/* 二级分店 */
+
+.level-2 .application-date i {
+    color: #333;
+}
+
+
+/* 三级分店 */

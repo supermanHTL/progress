@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>修改店铺信息</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/modify_shopInfo.css">
+</head>
+
+<body>
+    <div id="top">
+        <a href="javascript:history.go(-1)" id="goback"></a>
+        <h1>修改店铺信息</h1>
+    </div>
+    <div class="placeholder"></div>
+    <div id="content">
+        <div class="file">
+            <input type="file" name="" id="upload">
+            <img src="" alt="">
+            <p>点击左侧的图片修改logo<br>建议尺寸200*200像素，小于120K,支持.jpg，.gif，.png格式</p>
+        </div>
+        <ul id="form">
+            <li>
+                <span>店铺名称</span>
+                <input type="text" name="" maxlength="10">
+            </li>
+            <li>
+                <span>联系人：</span>
+                <input type="text" name="" maxlength="10">
+            </li>
+            <li>
+                <span>联系电话：</span>
+                <input id="tel" type="tel" name="" maxlength="11">
+            </li>
+            <li>
+                <span>QQ号码：</span>
+                <input id="qq" type="text" name="" maxlength="15">
+            </li>
+            <li>
+                <span>店铺介绍：</span>
+                <textarea></textarea>
+            </li>
+        </ul>
+        <div class="confirm">确定</div>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/modify_shopInfo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+﻿			body {
+				margin: 0;
+				padding: 0;
+				background-color: #e1eaf2;
+			}
+			.pCenter-wrap .footer-nav  {
+				line-height: 0.85rem;
+			}
+			#private_top {
+				width: 100%;
+				height: 8.675rem;
+				background: url(../images/top_image.png) no-repeat;
+				background-size: contain;
+				background-color: #2187E7;
+			}
+			#head-imger {
+				float: left;
+			}
+			#head-imger img{
+				width: 4.764rem;
+				height: 4.764rem;
+				border-radius: 4.764rem;
+				border: 2px solid #FFF;
+				margin-top: 1.956rem;
+				margin-left: 0.711rem;
+			}
+			#user_name  {
+				float: left;
+				color: #FFF;
+				margin-top: 1.129rem;
+				margin-left: -1.233rem;
+			}
+			#user_name ul {
+				list-style: none;
+				font-family: "微软雅黑";
+				font-size: 1.138em;
+			}
+			#sign_in_li {
+				width: 5.835rem;
+				height: 1.88rem;
+				border-radius: 0.94rem;
+				background-color: #FFF;
+				text-align: center;
+				margin-top: 0.64rem;
+				line-height: 1.68rem;
+				
+			}
+			#sign_in {
+				color: #2e8de6;
+				font-size: 0.996rem;
+			}
+			#private_user_play {
+				width: 100%;
+				height: 3.556rem;
+				background-color: #2e8de6;
+				line-height: 3.656rem;
+			}
+			#private_user_play ul,  #private_cost_imfo ul {
+				margin: 0 auto;
+				list-style: none;
+				color: #FFF;
+				padding-left: 0;
+				
+			}
+			#private_user_play ul {
+				position: relative;
+				top: 0.611rem;
+			}
+			#private_user_play ul li, #private_cost_imfo ul li {
+				float: left;
+				font-family: "微软雅黑";
+				font-size: 1.138rem; 
+				width: 50%;
+				height: 2.062rem;
+				text-align: center;
+				
+			}
+			#private_user_play ul li a {
+				padding-top: 1.7rem;
+				
+			}
+			#my_producer_name {
+				padding-top: 1.7rem;
+				margin-top:1.7rem;
+			}
+			#private_user_play ul li {
+				width: 40%;
+				height: 2.062rem;
+				line-height: 2.062rem;
+				border-radius: 0.99rem;
+			}
+			#my_producer {
+				margin-left: 5%;
+				margin-right: 10%;
+			}
+			#my_buyer {
+				margin-right: 5%;
+				background-color: #FFF;
+			}
+			#my_buyer a span {
+				color: #2e8de6;
+			}
+			#private_user_play ul li a {
+				color: #FFF;
+			}
+			#private_user_play ul li a span {
+				
+			}
+			#private_cost_imfo {
+				width: 100%;
+				height: 3.656rem;
+				margin: 0.924rem 0;
+				background-color: #FFF;
+				line-height: 1.278rem;
+				box-shadow: 0px 0px 2px #d9d9d9;
+			}
+			#private_cost_imfo ul, #private_order ul {
+				color: #333333;
+				font-size: 0.924rem;
+				padding-top: 0.611rem;
+			}
+			#private_cost_imfo ul li {
+				width: 33.33%;
+			}
+			#private_cost_imfo ul li span {
+				display: block;
+				padding-bottom: 0.356rem;
+			}
+			#private_order {
+				width: 100%;
+				height: 2.844rem;
+				background-color: #FFF;
+				margin-bottom: 0.072rem;
+				line-height: 2.844rem;
+			}
+			#private_order ul {
+				list-style: none;
+				margin: 0 auto;
+				padding-left: 0.711rem;
+				padding-right: 0.711rem;
+			}
+			#private_order ul li{
+				width: 50%;
+				height: 2.844rem;
+				margin-top: -0.35rem;
+				float: left;
+				font-family: "微软雅黑";
+				font-size: 1.138rem;
+			}
+			#myorder_img_img {
+				width: 1.422rem;
+				height: 1.7rem;
+				margin-top: 0.3rem;
+				float: left;
+			}
+			#all_order_name {
+				text-align: right;
+				margin-right: 0;
+				position: relative;
+				top: -0.211rem;
+			}
+			#all_order_name a {
+				color: #333;
+			}
+			#myorder_name {
+				padding-left: 0.555rem;
+				float: left;
+				position: relative;
+				top: -0.211rem;
+			}
+			
+			#private_order_func {
+				width: 100%;
+				height: 4.556rem;
+				background-color: #FFFFFF;
+				margin-bottom: 0.889rem;
+			}
+			#private_order_func ul, #private_functions ul {
+				margin: 0 auto;
+				list-style: none;
+				padding-top: 0.711rem;
+				padding-left: 1.422rem;
+				margin-left: -1.244rem;
+			}
+			#private_order_func ul li, #private_functions ul li {
+				float: left;
+				text-align: center;
+				width: 5.225rem;
+			}
+			#private_order_func ul li a, #private_functions ul li a {
+				margin: 0 auto;
+				padding: 0;
+				width: 100%;
+				height: 1.762rem;
+				color: #333;
+			}
+			#private_order_func ul li a img {
+				width: 1.64rem;
+				height: 1.64rem;
+			}
+			.order_func_name  {
+				text-align: center;
+				font-family: "微软雅黑";
+				font-size: 0.924rem;
+				position: relative;
+				top: -0.255rem;
+			}
+			#private_functions {
+				clear: both;
+				width: 100%;
+				height: 12.806rem;
+				background-color: #FFFFFF;
+				margin-bottom: 0.782rem;
+				box-shadow: 0px 0px 2px #d9d9d9;
+			}
+			#private_functions ul {
+				
+				margin-left: 0.1rem;
+			}
+			#private_functions ul li {
+				margin-top: 1.222rem;
+				margin-right: 0.9rem;
+			}
+			#private_functions ul li a{
+				
+			}
+			#private_functions ul li a img {
+				width: 2.133rem;
+				height: 2.133rem;
+			}
+			#private_goshopping {
+				width: 100%;
+				height: 3.556rem;
+				background-color: #FFFFFF;
+				margin-bottom: 0.711rem;
+				clear: both;
+				line-height: 3.556rem;
+				text-align: center;
+				box-shadow: 0px 0px 2px #d9d9d9;
+			}
+			#private_goshopping a {
+				width: 100%;
+			}
+			#private_goshopping a img {
+				position: relative;
+				top: 0.5rem;
+			}
+			#private_goshopping a span {
+				color: #333333;
+				font-family: "微软雅黑";
+				font-size: 0.996rem;
+				padding-left: 0.356rem;
+			}
+			#private_goshopping a img {
+				width: 1.529rem;
+				height: 1.849rem;
+				
+			}
+			#private_quit {
+				width: 100%;
+				height: 3.556rem;
+				background-color: #FFFFFF;
+				margin-bottom: 0.356rem;
+				box-shadow: 0px 0px 2px #d9d9d9;
+				margin-bottom: 4.556rem;
+			}
+			#quit_out {
+				text-align: center;
+				width: 60%;
+				height: 1.992rem;
+				border-radius: 0.711rem;
+				background-color: #fa3c3c;
+				font-family: "微软雅黑";
+				font-size: 0.996rem;
+				color: #FFFFFF;
+				line-height: 1.992rem;
+				margin: 0 auto;
+				position: relative;
+				top: 0.96rem;
+			}
+			#private_login_title {
+				width: 100%;
+				height: 3.556rem;
+				background-color: #2e8de6;
+			}
+			#private_login_title ul {
+				width: 100%;
+				height: 3.556rem;
+				margin: 0 auto;
+				padding-left: 0.853rem;
+				list-style: none;
+				font-family: "微软雅黑";
+				line-height: 3.556rem;
+				color: #fff;
+				text-align: center;
+			}
+			#private_login_title ul li {
+				float: left;
+			}
+			#private_login_title ul li a {
+				color: #fff;
+			}
+			#left_angle a {
+				position: relative;
+				top: 0.311rem;
+			}
+			#left_angle a img{
+				width: 0.672rem;
+				height: 1.244rem;
+			}
+			#title_login {
+				width: 80%;
+				margin-right: 0;
+				margin-left: 1.4rem;
+				font-size: 1.138rem;
+			}
+			#title_regist a {
+				font-size: 0.924rem;
+				padding-left: 0.311rem;
+			}
+			#private_forget_pwd {
+				float: left;
+			}
+			#private_forget_pwd a {
+				font-family: "微软雅黑";
+				color: #2e8de6;
+				font-size: 0.924rem;
+				padding-left: 1.209rem;
+			}
+			#private_login_button {
+				font-family: "微软雅黑";
+				font-size: 0.924rem;
+				width: 54%;
+				height: 2.133rem;
+				border-radius: 0.99rem;
+			}
+			#private_login_body_body {
+				width: 100%;
+				height: 10.088rem;
+				background-color: #fff;
+				margin-top: 0.711rem;
+				margin-bottom: 1.251rem;
+			}
+			.ui-select select {
+				font-family: "微软雅黑";
+				font-size: 0.924rem;
+				color: #333;
+				-webkit-appearance: listbox;
+			}
+			#private_login_position label {
+				font-family: "微软雅黑";
+				font-size: 0.924rem;
+				color: #333;
+				width: 12.5%;
+				position: absolute;
+				left: 1.244rem;
+			}
+			 #private_login_tel input, .private_login_pwd input,  #private_login_tel2 input {
+			 	position: relative;
+			 	
+			 	font-family: "微软雅黑";
+			 	font-size:  0.924rem;
+			 	color: #333;
+				margin-bottom: 0;
+
+			 }
+			 .private_login_pwd input {
+			 	top: -0.255rem;
+			 }
+			 #private_login_tel label, .private_login_pwd label,  #private_login_tel2 label {
+			 	font-family: "微软雅黑";
+			 	font-size: 0.924rem;
+			 	color: #333;
+			 }
+			 #private_login_tel label img, .private_login_pwd label img,  #private_login_tel2 label img {
+			 	width: 0.782rem;
+			 	height: 0.782rem;
+			 	margin-top: 0.355rem;
+			 	margin-right: 0.355rem;
+			 }
+			 .ui-btn {
+    			font-family: "微软雅黑";
+    			font-size: 0.924rem;
+    			line-height: 1.493rem;
+    		}
+    		.private_login_pwd {
+    			width: 100%;
+    			height: 3.626rem;
+    			line-height: 3.626rem;
+    		}
+    		.private_login_pwd [type=text] {
+    			text-align: left;
+    			margin-top: 0.5rem;
+    			margin-bottom: 0;
+    			width: 70%;
+    			border: none;
+    		}
+    		.private_login_pwd2 [type=text] {
+    			text-align: left;
+    			margin-top: 0.5rem;
+    			margin-bottom: 0;
+    			width: 100%;
+    			border: none;
+    			font-family: "微软雅黑";
+    			font-size: 0.924rem;
+    		}
+    		.private_login_pwd [type=button] {
+    			border: none; 
+    			background-color: #2e8de6; 
+    			color: #fff; 
+    			font-size: 0.924rem;
+    			border-radius: 0.9rem;
+    			position: relative;
+    			right: 0.711rem;
+    			margin-top: 1.3rem;
+    			width: 26%;
+    			height: 1.493rem;
+    			padding-top: 0.2rem;
+    			
+    		}

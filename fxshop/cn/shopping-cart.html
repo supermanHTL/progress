@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <title>购物车</title>
+    <script src="../js/fontSize.js"></script>
+    <link rel="stylesheet" href="../css/shopping-cart.css">
+</head>
+
+<body>
+    <div id="head">
+        <div class="top clearfix">
+            <a href="javascript:history.go(-1)" class="goback"></a>
+            <h1>购物车(<span id="top-num"></span>)</h1>
+            <span class="top-edit">编辑</span>
+            <a href="orders_all.html" class="link">我的订单</a>
+        </div>
+    </div>
+    <!-- 购物车列表 -->
+    <ul class="list">
+        <li class="block">
+            <div class="list-head">
+                <i class="select shop-select"></i>
+                <a class="shop" href="">阿里巴巴旗舰店</a>
+                <span class="shop-edit">编辑</span>
+            </div>
+            <!-- 该店铺的所有商品 -->
+            <ol class="list-body">
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款</strong>
+                            <span class="info-attr">颜色:黑色;尺码:41</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">99.98</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>4</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 每个商品对应的编辑界面 -->
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款</strong>
+                            <span class="info-attr">颜色:白色;尺码:38;</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">99.98</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>3</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li class="block">
+            <div class="list-head">
+                <i class="select shop-select"></i>
+                <a class="shop" href="">QQ旗舰店</a>
+                <span class="shop-edit">编辑</span>
+            </div>
+            <!-- 该店铺的所有商品 -->
+            <ol class="list-body">
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款</strong>
+                            <span class="info-attr">颜色:紫色;尺码:43;</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">99.98</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>4</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 每个商品对应的编辑界面 -->
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+            </ol>
+        </li>
+        <li class="block">
+            <div class="list-head">
+                <i class="select shop-select"></i>
+                <a class="shop" href="">百度旗舰店</a>
+                <span class="shop-edit">编辑</span>
+            </div>
+            <ol class="list-body">
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款123456789</strong>
+                            <span class="info-attr">颜色:红色;尺码:42;</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">100.88</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>8</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款123456789</strong>
+                            <span class="info-attr">颜色:蓝色;尺码:44;</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">130.33</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>2</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+                <li>
+                    <i class="select product-select"></i>
+                    <a class="detail" href="product_details.html">
+                        <div class="product-img"><img src="" alt=""></div>
+                        <div class="info">
+                            <strong>时尚修身显瘦百搭暗条纹背心短款时尚修身显瘦百搭暗条纹 背心短款时尚修身显瘦百搭暗条纹背心短搭暗条纹背心短款123456789</strong>
+                            <span class="info-attr">颜色:白色;尺码:40;</span>
+                            <div class="price clearfix">
+                                <span>&yen; <em class="per currency">860.00</em>&nbsp;</span>
+                                <small>&yen;<em class="currency">189.00</em></small>
+                                <span class="quantity">&times;<em>1</em></span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="info-edit">
+                        <div>
+                            <i class="decrease"></i>
+                            <input type="tel" class="iNow" value="">
+                            <i class="increase"></i>
+                        </div>
+                        <p></p>
+                        <span class="info-edit-del">删除</span>
+                    </div>
+                </li>
+            </ol>
+        </li>
+    </ul>
+    <!-- 选择商品其他属性 -->
+    <div id="others-wrap">
+        <div class="others">
+            <div class="others-head">
+                <img src="">
+                <div>
+                    <span class="others-head_price">&yen;<em class="currency">149</em>&nbsp;</span>
+                    <small>&yen;<em class="currency">300</em></small>
+                    <span class="stock">&nbsp;(库存<em>15000</em>件)</span>
+                    <p class="hasSelected">请选择商品属性</p>
+                </div>
+                <span class="close">&times;</span>
+            </div>
+            <div id="others-body">
+                <span class="attr">颜色</span>：
+                <ul class="options clearfix">
+                    <li>黑色</li>
+                    <li>红色</li>
+                    <li>白色</li>
+                    <li>蓝色</li>
+                    <li>紫色</li>
+                    <li>黄色</li>
+                    <li class="disable">绿色</li>
+                </ul>
+                <span class="attr">尺寸</span>：
+                <ul class="options clearfix">
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li>39</li>
+                    <li>40</li>
+                    <li>41</li>
+                    <li>42</li>
+                    <li>43</li>
+                    <li class="disable">44</li>
+                    <li>45</li>
+                    <li>46</li>
+                    <li>47</li>
+                    <li>48</li>
+                </ul>
+                <div class="edit">
+                    <span class="attr">数量：</span>
+                    <div class="clearfix">
+                        <i class="decrease"></i>
+                        <input type="tel" value="1">
+                        <i class="increase"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="others-bottom">
+                <a href="javascript:;" class="sure">确定</a>
+                <a href="" class="buy">立即购买</a>
+            </div>
+        </div>
+    </div>
+    <!-- 底部结算 -->
+    <ul class="bottom bottom-sum clearfix">
+        <li class="all-above">
+            <i class="select"></i>
+            <span>&nbsp;全选</span>
+        </li>
+        <li class="bottom-l">
+            合计(不含运费):
+            <span>&yen; <em id="sum">0.00</em></span>
+        </li>
+        <li class="bottom-r">
+            结算(<em id="total">0</em>)
+        </li>
+    </ul>
+    <!-- 底部编辑栏 -->
+    <ul class="bottom bottom-edit clearfix">
+        <li class="all-above">
+            <i class="select"></i>
+            <span>&nbsp;全选</span>
+        </li>
+        <li id="functions">
+            <span class="share">分享宝贝</span>
+            <span class="favorite">移入收藏夹</span>
+            <span class="bottom-del">删除</span>
+        </li>
+    </ul>
+    <!-- 底部占位元素 -->
+    <div class="placeholder"></div>
+    <!-- 底部导航栏 -->
+    <div class="foot-nav">
+        <a href="../index.html" class="home">商城首页</a>
+        <a href="abroad_shop.html" class="abroad">海外直供</a>
+        <a href="record.html" class="userPic"></a>
+        <a href="javascript:;" class="buyCar">购物车</a>
+        <a href="privateCenter.html" class="user">个人中心</a>
+    </div>
+    <!-- 弹窗 -->
+    <div id="confirm">
+        <div class="caution">
+            <p>确认删除选中的商品吗？</p>
+            <div class="clearfix">
+                <span class="cancel">取消</span>
+                <span class="ensure">确定</span>
+            </div>
+        </div>
+    </div>
+    <!-- 浮现提示框 -->
+    <div class="fadeInOut">
+        <i></i>
+        <span></span>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/shopping-cart.js"></script>
+</body>
+
+</html>

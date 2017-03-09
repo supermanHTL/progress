@@ -1,0 +1,187 @@
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+.wrap {
+	padding-bottom: 19.95px;
+	font-size: 26px;
+	color: #333;
+}
+.message {
+	padding-top: 100px;
+}
+.message ul {
+	margin-bottom: 19.95px;
+	padding: 15px 0 19px 38px;
+	background: #fff;
+	line-height: 50px;
+	font-size: 26px;
+	color: #333;
+	text-align: left;
+}
+.message ul li {
+	overflow: hidden;
+}
+.message ul li:nth-child(1) {
+	padding-right: 111px;
+}
+.message li:nth-child(1) span,
+.message li:nth-child(1) strong {
+	float: left;
+}
+.message li:nth-child(2) a {
+	display: block;
+	padding-right: 111px;
+	background: url('../images/gonext.png') 95% 6px no-repeat;
+	background-size: 20px 38px;
+	color: #333;
+}
+.phone {
+	float: right
+}
+/*商品*/
+.product {
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.shop {
+    line-height: 60px;
+    height: 60px;
+    padding: 0 35px;
+	border: 1px solid rgba(204,204,204,0.5);
+}
+.shop a {
+    padding: 0 34px;
+    color: #333;
+    background: url('../images/shopping-cart/home.png'),
+                url('../images/shopping-cart/next.png') right 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.product-body {
+    overflow: hidden;
+    padding: 20px 22px 20px 35px;
+    padding-bottom: 0;
+	border: 1px solid rgba(204,204,204,0.5);
+}
+.product-pic {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background: #333;
+}
+.detail {
+    float: right;
+    width: 76.470589%;
+}
+
+.detail h2 {
+    line-height: 1.5;
+    display: -webkit-box;
+    overflow: hidden;
+    height: 78px;
+    color: #333;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.attr {
+    font-size: 24px;
+    color: #4c4c4c;
+}
+.price {
+    font-size: 24px;
+    padding: 8px 0 24px 0;
+    color: #fa3c3c;
+}
+.gs {
+	color: #808080;
+	text-decoration: line-through;
+}
+.quantity {
+    font-size: 26px;
+    float: right;
+    color: #333;
+}
+.total {
+	padding: 28px 22px 28px 0;
+	border-bottom: 1px solid rgba(204,204,204,0.5);
+	line-height: 1;
+}
+.total span, .total strong {
+    float: right;
+    color: #333;
+}
+.wrap .summary {
+	color: #fa3c3c;
+}
+.postage {
+	padding: 17px 22px 17px 0;
+	border-bottom: 1px solid rgba(204,204,204,0.5);
+	line-height: 1;
+	text-align: right;
+}
+.chat {
+	padding: 27px 0 27px 34px;
+	border-bottom: 1px solid rgba(204,204,204,0.5);
+	background: #fff;
+	line-height: 1;
+}
+.chat label, .chat input {
+	float: left;
+}
+.chat textarea {
+	width: 340px;
+	padding: 3px 15px;
+	outline: none;
+	resize: none;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.pay-way {
+	position: relative;
+	padding: 17px 60px 17px 34px;
+	background: #fff;
+	line-height: 1;
+}
+.pay-way span {
+	float: left;
+}
+.pay-way strong {
+	float: right;
+}
+.pay-way a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+	background: url('../images/gonext.png') center center no-repeat;
+	background-size: 15px 28px;
+}
+.pay {
+	position: relative;
+	margin-top: 20px;
+	padding: 38px 222px 38px 0;
+	background: #fff;
+}
+.pay span, .pay b, .pay strong {
+	float: right;
+}
+.pay b, .pay strong {
+	color: #fa3c3c;
+}
+.pay-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 201px; 
+	padding: 37px 0;
+	background: #fa3c3c;
+	line-height: 1;
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	border-left: 1px solid rgba(253,186,186,0.5);
+	border-right: 1px solid rgba(253,186,186,0.5);
+}

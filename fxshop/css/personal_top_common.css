@@ -1,0 +1,40 @@
+body {
+    background: #e1eaf2;
+}
+
+.self-top-common {
+    line-height: 3.56rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.56rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+.self-top-common h1 {
+    font-size: 1.14rem;
+    color: #fff;
+}
+
+.goback,
+.self_set {
+    position: absolute;
+    top: 0;
+    width: 2.42rem;
+    height: 100%;
+}
+
+.goback {
+    left: 0;
+    background: url('../images/back.png') center center no-repeat;
+    background-size: .71rem 1.32rem;
+}
+
+.self_set {
+    right: 0;
+    background: url('../images/set.png') center center no-repeat;
+    background-size: 1.28rem 1.28rem;
+}

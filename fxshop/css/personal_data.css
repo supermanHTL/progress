@@ -1,0 +1,81 @@
+.history-wrap {
+	padding-top: 3.56rem;
+	font-size: 0.93rem;
+	color: #808080;
+}
+.history-wrap header {
+	padding: 0.89rem 0;
+}
+.history-wrap header div {
+	width: 3.56rem;
+	height: 3.56rem;
+	margin: 0 auto;
+	background: #2e8de6;
+	border-radius: 100%;
+}
+/*个人信息部分*/
+.per-message {
+	font-size: 1rem;
+}
+.per-message ul {
+	margin-bottom: 0.71rem;
+	background: #fff;
+}
+.per-message li {
+	position: relative;
+	overflow: hidden;
+	padding-left: 1.21rem;
+}
+.per-message li:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #d9d9d9;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+.per-message li div {
+	float: left;
+	height: 2.14rem;
+	line-height: 2.14rem;
+}
+.per-message li div:nth-child(1) {
+	margin-right: 1.42rem;
+}
+.per-message li div span {
+	margin-right: 1.73rem;
+}
+.per-message .per_special {
+	width: 93.6%;
+	margin: 0 auto;
+	padding-left: 0.7rem;
+}
+/*退出登录*/
+.out {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: flex;
+	height: 3.56rem;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-align: center;
+	background: #fff;
+}
+.out a {
+	display: block;
+	width: 60%;
+	padding: 0.5rem 0;
+	background: #fa3c3c;
+	line-height: 1;
+	font-size: 1.14rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.64rem;
+}

@@ -1,0 +1,254 @@
+.perAddr-wrap {
+	position: relative;
+	height: 100%;
+}
+.perAddr-wrap .self-top-common {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.set {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 4rem;
+	padding: 1.31rem 0;
+	line-height: 1;
+	font-size: 0.93rem;
+	color: #fff;
+}
+.addr-message {
+	padding-top: 0.71rem;
+	overflow: auto;
+	position: absolute;
+	top: 3.56rem;
+	bottom: 3.56rem;
+	left: 0;
+	right: 0;
+}
+.addr-message ul {
+	position: relative;
+	margin-bottom: 0.71rem;
+	padding: 0.53rem 0 0.68rem 1.35rem;
+	background: #fff;
+	line-height: 1.78rem;
+	font-size: 0.93rem;
+	color: #333;
+	text-align: left;
+}
+.select {
+	position: absolute;
+	top: 50%;
+	right: 0.8rem;
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-top: -0.8rem;
+	border: 1px solid rgba(77,77,77,0.5);
+	-webkit-border-radius: 100%; 
+	border-radius: 100%; 
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.select:after {
+	position: absolute;
+	left: -0.6rem;
+	top: -0.5rem;
+	content: '';
+	width: 2.3rem;
+	height: 2.3rem;
+}
+.selected {
+	border: none;
+	background: url('../images/shopping-cart/select.png') no-repeat center;
+	background-size: 100% 100%;
+}
+.addr-name, .addr-addr {
+	overflow: hidden;
+	position: relative;
+	padding-right: 4.02rem;
+}
+.addr-message li:nth-child(1) span,
+.addr-message li:nth-child(1) strong {
+	float: left;
+}
+.phone {
+	float: right
+}
+.addr-name .re-write, .addr-addr i {
+	position: absolute;
+	right: 0;
+	width: 4.02rem;
+	height: 100%;
+}
+.addr-name .re-write {
+	top: 0;
+	background: url('../images/pen.png') center center no-repeat;
+	background-size: 1.35rem 1.35rem;
+}
+.addr-addr i {
+	bottom: 0;
+	background: url('../images/delete.png') center center no-repeat;
+	background-size: 1rem 1.21rem;
+}
+.mr {
+	position: relative;
+	padding-left: 1.8rem;
+}
+.act {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-top: -0.6rem;
+	border: 1px solid rgba(51,51,51,0.5);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.act:after {
+	position: absolute;
+	left: 0;
+	top: -0.5rem;
+	content: '';
+	width: 2rem;
+	height: 2rem;
+}
+.active {
+	border: none;
+	background: url('../images/tick.gif');
+	background-size: 100% 100%;
+}
+.addNew-addr {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1.21rem 0 1.21rem 1.3rem;
+	background: #2e8de6;
+	line-height: 1;
+	font-size: 1.14rem;
+	color: #fff;
+	text-align: center;
+}
+.addNew-addr:after {
+	position: absolute;
+	content: '';
+	left: 38.27%;
+	top: 50%;
+	width: 1.14rem;
+	height: 1.14rem;
+	background: url('../images/add.png');
+	background-size: 100% 100%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*进入新增地址设置页*/
+.perAddr2-wrap {
+	padding: 4.27rem 0 1.6rem;
+}
+.perAddrF {
+	padding: 0 5%;
+}
+.perAddrF div {
+	margin-bottom: 0.36rem;
+	color: #333;
+}
+.perAddrF label {
+	float: left;
+	height: 2.2rem;
+    line-height: 2.2rem;
+    font-size: 0.93rem;
+}
+.perAddrF input, .perAddrF select {
+	float: right;
+    height: 2.1rem;
+    width: 77%;
+    border: 1px solid #b3b3b3;
+    padding-left: 0.36rem;
+    background: #fff;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0.28rem;
+}
+.perAddrF textarea {
+	float: right;
+    height: 4.2rem;
+    width: 77%;
+    border: 1px solid #b3b3b3;
+    padding: 0.3rem;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 0.28rem;
+}
+.addr-keep {
+	margin-top: 3.56rem;
+}
+.addr-keep .submit {
+	float: none;
+	display: block;
+	width: 53.33%;
+	margin: 0 auto;
+	padding: 0.46rem 0;
+	background: #2e8de6;
+	line-height: 1;
+	font-size: 1.14rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.21rem;
+}
+/*弹窗*/
+.wrap-sel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    text-align: center;
+    line-height: 1;
+}
+.mask-tip {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 53.33%;
+    background: rgba(0,0,0,0.75);
+    font-size: 1rem;
+    color: #fff;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+.mask p {
+    clear: both;
+    padding: 1.64rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    font-size: 1rem;
+}
+.mask-cancel, .mask-sure {
+    float: left;
+    width: 50%;
+    padding: 0.89rem 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mask-cancel {
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+.perAddr2-wrap .isFalse {
+	border: 1px solid rgba(255,0,0,0.5);
+}

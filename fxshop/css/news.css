@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: .924444rem;
+    -webkit-user-select: none;
+    color: #333;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body,
+p,
+h1,
+h2,
+ul,
+dl,
+dd,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+i,
+strong {
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+#topfix {
+    line-height: 3.555556rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.555556rem;
+    text-align: center;
+    background: #2e8de6;
+}
+
+#goback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.417778rem;
+    height: 100%;
+    background: url('../images/back.png') no-repeat center;
+    background-size: auto 1.244444rem;
+}
+
+#topfix h1 {
+    font-size: 1.137778rem;
+    color: #fff;
+}
+
+.placeholder {
+    height: 3.555556rem;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+
+/* main */
+
+.list {
+    width: 25.031111rem;
+    margin: .711111rem auto 0;
+}
+
+.list li {
+    float: left;
+    width: 12.231111rem;
+    margin-bottom: .355556rem;
+}
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #808080;
+}
+
+.list li:nth-child(3n+1) {
+    margin-right: .355556rem;
+}
+
+.list img {
+    width: 100%;
+    height: 7.111111rem;
+}
+
+.info {
+    position: relative;
+    padding: .64rem .284444rem 2.488889rem;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.info h2 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.info span {
+    font-size: .853333rem;
+    position: absolute;
+    top: 3.911111rem;
+    right: .711111rem;
+    color: #808080;
+}
